@@ -6,12 +6,13 @@ hr {
 /* header a:last-of-type {
     float: none;
 } */
-header {
+header a {
     margin: 20px;
 }
 .pic {
-    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
     background-size: 100% 10%;
     background-image: url("../bg.jpg");
-    image-resolution: 10% 10%;
 }
