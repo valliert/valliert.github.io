@@ -3,6 +3,7 @@ function makeHeader() {
 
     let name = document.createTextNode("Riley Vallier");
     name.className = "tab";
+    header.append(name);
 
     let pages = ["Main", "Resume", "Portfolio"];
     pages.forEach((page) => {
