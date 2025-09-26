@@ -10,7 +10,6 @@ hr {
     margin: 20px;
 }
 .pic {
-    margin: auto;
-
+    display: inline;
     background-image: url("../bg.jpg");
 }
