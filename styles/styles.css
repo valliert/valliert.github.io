@@ -10,6 +10,7 @@ hr {
     margin: 20px;
 }
 .pic {
-    align-content: center;
+    margin: auto;
+
     background-image: url("../bg.jpg");
 }
