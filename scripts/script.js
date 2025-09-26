@@ -16,3 +16,8 @@ function makeHeader() {
     });    
 
 }
+
+window.addEventListener("load", (event) => {
+    console.log(event)
+    makeHeader();
+})
