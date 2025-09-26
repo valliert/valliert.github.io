@@ -2,7 +2,7 @@ function makeHeader() {
     let header = document.querySelector("head");
 
     let pages = ["Main", "Resume", "Portfolio"];
-    pages.foreach((page) => {
+    pages.forEach((page) => {
         let link = document.createElement("a");
         link.textContent = page;
         let file = "";
