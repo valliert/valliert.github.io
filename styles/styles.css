@@ -3,10 +3,9 @@ hr {
     background: black;
     
 }
-header a:last-of-type {
+/* header a:last-of-type {
     float: none;
-}
+} */
 .tab {
-    float: left;
     margin: 20px;
 }
