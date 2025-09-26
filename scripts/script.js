@@ -13,7 +13,9 @@ function makeHeader() {
         }
         link.href = file;
         header.append(link);
-    });    
+    });
+    
+    document.body.prepend(header);
 
 }
 
