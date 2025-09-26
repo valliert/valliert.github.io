@@ -2,3 +2,6 @@ hr {
     height: 5px;
     background: black;
 }
+.tab {
+    float: left;
+}
