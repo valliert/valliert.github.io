@@ -10,5 +10,5 @@ hr {
     margin: 20px;
 }
 .pic {
-    background-image: url("bg.jpg");
+    background-image: url("../bg.jpg");
 }
