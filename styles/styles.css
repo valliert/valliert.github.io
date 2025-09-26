@@ -1,6 +1,9 @@
 hr {
     height: 5px;
     background: black;
+    
+}
+header:last-child {
     float: none;
 }
 .tab {

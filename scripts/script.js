@@ -15,7 +15,7 @@ function makeHeader() {
         link.className = "tab";
         header.append(link);
     });
-
+    
     header.append(document.createElement("hr"));
     header.append(document.createElement("hr"));
     
