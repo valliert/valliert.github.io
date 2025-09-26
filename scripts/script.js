@@ -1,5 +1,5 @@
 function makeHeader() {
-    let header = document.querySelector("head");
+    let header = document.createElement("header");
 
     let pages = ["Main", "Resume", "Portfolio"];
     pages.forEach((page) => {
