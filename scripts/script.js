@@ -8,7 +8,7 @@ function makeHeader() {
         if (page == "Main") {
             file = "index.html"
         } else {
-            file = page.toLowerCase() + ".html";
+            file = "./" + page.toLowerCase() + ".html";
         }
         link.href = file;
         header.appendChild(link);
