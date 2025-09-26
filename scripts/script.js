@@ -12,6 +12,7 @@ function makeHeader() {
             file = "./" + page.toLowerCase() + ".html";
         }
         link.href = file;
+        link.className = "tab";
         header.append(link);
     });
     
