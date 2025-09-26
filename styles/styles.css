@@ -11,5 +11,6 @@ header {
 }
 .pic {
     display: inline;
+    background-size: auto;
     background-image: url("../bg.jpg");
 }
