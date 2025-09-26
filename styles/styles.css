@@ -3,7 +3,7 @@ hr {
     background: black;
     
 }
-header:last-child {
+header a:last-child {
     float: none;
 }
 .tab {
