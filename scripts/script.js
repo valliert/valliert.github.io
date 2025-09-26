@@ -4,6 +4,7 @@ function makeHeader() {
     let pages = ["Main", "Resume", "Portfolio"];
     pages.foreach((page) => {
         let link = document.createElement("a");
+        link.textContent = page;
         let file = "";
         if (page == "Main") {
             file = "index.html"
@@ -11,8 +12,7 @@ function makeHeader() {
             file = "./" + page.toLowerCase() + ".html";
         }
         link.href = file;
-        header.appendChild(link);
-    })
-    
+        header.append(link);
+    });    
 
 }
