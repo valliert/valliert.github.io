@@ -17,9 +17,6 @@ header a {
 .pic-bg {
     background-image: url("../bg.jpg");
 }
-ul {
+.list-header {
     text-decoration: underline;
-}
-li {
-    text-decoration: none;
 }
