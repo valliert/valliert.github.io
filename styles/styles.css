@@ -18,5 +18,5 @@ header a {
     background-image: url("../bg.jpg");
 }
 .list-header {
-    text-decoration: underline;
+    text-decoration: solid;
 }
