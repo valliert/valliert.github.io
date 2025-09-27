@@ -31,7 +31,7 @@ header a:visited, header a:link {
     
 }
 
-header text {
+header {
     font-size: 2em;
     font-weight: bold;
     color: #423900
