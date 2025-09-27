@@ -46,7 +46,7 @@ function makeFooter() {
     document.body.append(footer);
 }
 
-const highlightables = document.querySelectorAll(".clickable");
+const highlightables = document.querySelectorAll(".highlightable");
 
 highlightables.forEach((element) => {
     element.addEventListener("click", function() {
