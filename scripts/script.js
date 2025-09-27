@@ -42,7 +42,7 @@ function makeFooter() {
         link.className = "tab";
         footer.append(link);
     };
-
+    document.body.append(document.createElement("br"));
     document.body.append(footer);
 }
 
