@@ -55,6 +55,7 @@ highlightables.forEach((element) => {
         } else {
             element.classList.add("highlighted");
         }
+        console.log("Clicked", element);
     })
 })
 
