@@ -17,3 +17,6 @@ header a {
 .pic-bg {
     background-image: url("../bg.jpg");
 }
+ul {
+    text-decoration: underline;
+}
