@@ -13,9 +13,18 @@ hr {
 } */
 header a {
     margin: 20px;
-    color: none;
     text-decoration: none;
 }
+
+header a:visited, header a:link {
+    color: none;
+    
+}
+
+header a:hover {
+    color: blueviolet;
+}
+
 .pic {
     margin-left: auto;
     margin-right: auto;
