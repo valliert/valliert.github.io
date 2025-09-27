@@ -13,6 +13,8 @@ hr {
 } */
 header a {
     margin: 20px;
+    color: none;
+    text-decoration: none;
 }
 .pic {
     margin-left: auto;
