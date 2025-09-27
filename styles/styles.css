@@ -43,7 +43,11 @@ a:hover {
 .pic {
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    display: inline-block;
+    height: 30%;
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .pic-bg {
     background-image: url("../bg.jpg");
