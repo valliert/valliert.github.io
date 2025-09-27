@@ -11,7 +11,7 @@ hr {
 /* header a:last-of-type {
     float: none;
 } */
-header a {
+header a, footer a {
     margin: 20px;
     text-decoration: none;
 }
@@ -21,7 +21,7 @@ header a:visited, header a:link {
     
 }
 
-header a:hover {
+a:hover {
     color: blueviolet;
 }
 
