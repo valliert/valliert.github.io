@@ -43,9 +43,9 @@ a:hover {
 .pic {
     margin-left: auto;
     margin-right: auto;
-    display: inline-block;
-    height: 30%;
-    width: 30%;
+    display: block;
+    float: left;
+    max-height: 30%;
     padding-left: 10px;
     padding-right: 10px;
 }
