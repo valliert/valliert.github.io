@@ -10,7 +10,7 @@ body {
 
 p {
     font-size: medium;
-    text-decoration: solid;
+    font-weight: bold;
 }
 
 hr {
@@ -29,6 +29,12 @@ header a, footer a {
 header a:visited, header a:link {
     color: none;
     
+}
+
+header text {
+    font-size: 2em;
+    font-weight: bold;
+    color: #423900
 }
 
 footer {
