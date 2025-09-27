@@ -29,9 +29,9 @@ function makeHeader() {
 }
 
 function makeFooter() {
-    footer.append(document.createElement("hr"));
-    footer.append(document.createElement("hr"));
-
+    // footer.append(document.createElement("hr"));
+    // footer.append(document.createElement("hr"));
+    footer.append(document.createTextElement("Socials: "));
     let socials = {"LinkedIn": "https://www.linkedin.com/in/riley-vallier-1a0649293", "Handshake": "https://rose-hulman.joinhandshake.com/profiles/fb7bgd"};
     for (const page in socials) {
         let site = socials[page];
