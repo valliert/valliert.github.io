@@ -33,14 +33,14 @@ function makeFooter() {
     footer.append(document.createElement("hr"));
 
     let socials = {"LinkedIn": "https://www.linkedin.com/in/riley-vallier-1a0649293", "Handshake": "https://rose-hulman.joinhandshake.com/profiles/fb7bgd"};
-    socials.forEach((page, site) => {
+    for ((page, site) in socials) {
         let link = document.createElement("a");
         link.textContent = page;
         let file = site;
         link.href = file;
         link.className = "tab";
         footer.append(link);
-    });
+    };
 
     document.body.append(footer);
 }
