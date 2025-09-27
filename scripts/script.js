@@ -46,8 +46,23 @@ function makeFooter() {
     document.body.append(footer);
 }
 
+const highlightables = document.querySelectorAll(".clickable");
+
+highlightables.forEach((element) => {
+    element.addEventListener("click", function() {
+        if (element.classList.contains("highlighted")) {
+            element.classList.remove("highlighted");
+        } else {
+            element.classList.add("highlighted");
+        }
+    })
+})
+
 window.addEventListener("load", (event) => {
     console.log(event)
     makeHeader();
     makeFooter();
 })
+
+
+
