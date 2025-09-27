@@ -36,3 +36,8 @@ header a:hover {
 .list-header {
     text-decoration: solid;
 }
+.centered {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
