@@ -45,7 +45,7 @@ a:hover {
     margin-right: auto;
     display: block;
     float: left;
-    max-height: 30%;
+    height: 30%;
     padding-left: 10px;
     padding-right: 10px;
 }
