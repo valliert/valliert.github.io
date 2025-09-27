@@ -20,3 +20,6 @@ header a {
 ul {
     text-decoration: underline;
 }
+li {
+    text-decoration: none;
+}
